@@ -1,0 +1,29 @@
+// src/styles.scss
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  width: 300px;
+}
+
+.textbox-container,
+.dropdown-container {
+  margin-bottom: 20px;
+}
+
+.arrow-button {
+  background-color: #a5d6a7; 
+  &:hover {
+    background-color: #81c784; 
+  }
+}
